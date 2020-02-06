@@ -13,7 +13,7 @@ Procedure
 ---------
 
 Step 1. Download logAlerts.sh and add it to the /scripts/ directory of joinmarket<br>
-Step 2. Edit the file to replace the phrase "yourLogFile" with the name of your current log file. To find this name, go into the /scripts/log/ directory of joinmarket, then using the command "ls -la." Your current log file should begin with J5 and have today's date next to it<br>
+Step 2. Edit the file to replace the phrase "yourLogFile" with the name of your current log file. To find this name, open your terminal, enter the /scripts/log/ directory of joinmarket, and enter the command "ls -la." Your current log file should begin with J5 and have today's date next to it<br>
 Step 3. Also replace the phrase "yourKey" with the key you received from the notification bot. Save and exit your editor<br>
 Step 4. In the /scripts/ directory of joinmarket, enter the command "chmod a+x ./logAlerts.sh" (without quotes) into your terminal to make the file executable<br>
 Step 5. Create a file "lastline.txt" in the /scripts/ directory of joinmarket. The app uses this to log the most recent time it told you you stacked sats so that it doesn't alert you of the same thing again when it loops.<br>
