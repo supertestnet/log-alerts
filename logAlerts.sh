@@ -1,7 +1,5 @@
 #!/bin/bash
-
 echo "press ctrl+c to cancel"
-
 while true
 do
 s1=$(grep 'potentially earned' ./logs/yourLogFile.log | tail -1); #replace the phrase "yourLogFile" with the most recently updated log file in /scripts/logs/ 
