@@ -29,6 +29,6 @@ It will loop every 10 minutes to check if you've stacked any more. If you have, 
 
 If you stop and restart Joinmarket, it will create a new log file for you with your new username. You'll need to edit the logAlerts.sh file and replace the old log file name with the new log file name or logAlerts.sh will no longer work.<br>
 
-Notifications from logAlerts.sh look like this: "2019-01-01 12:15:00,156 [MainThread  ] [INFO ]  potentially earned = 159<br>
+Notifications from logAlerts.sh look like this: 2019-01-01 12:15:00,156 [MainThread  ] [INFO ]  potentially earned = 159<br>
 
 The number 159 is how many sats you stacked. The phrase "potentially earned" means joinmarket has not yet seen the transaction get broadcasted or confirmed, it only means you signed a coinjoin transaction that pays you that amount of sats and are now waiting for your counterparty to get the other signatures and broadcast the transaction. It is still possible for your counterparty to cancel the transaction, so you might not earn those sats.
