@@ -1,4 +1,4 @@
-# bitcoin-tools
+# Log alerts
 
 logAlerts.sh is a tool for alerting you via Telegram's incoming notification bot whenever you've stacked sats via joinmarket.
 
